@@ -1,7 +1,7 @@
-#create database exercicio;
+create database exercicio;
 
 use exercicio;
-/*
+
 create table funcionario(
 pnome varchar(20) not null,
     minicial varchar(1) not null,
@@ -71,4 +71,3 @@ create view teste_4 as
 select projnome, dnome, COUNT(pnome), SUM(horas) from projeto, departamento,funcionario,trabalha_em
 
 select * from teste_4
-*/
